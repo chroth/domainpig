@@ -1,6 +1,3 @@
-# Data should be downloaded
-data/*
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
