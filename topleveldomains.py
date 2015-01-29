@@ -46,7 +46,7 @@ class TopLevelDomain(object):
             if not line:
                 break
 
-            if line.strip() == self.get_reply_for(domainname):
+            if line.lower().strip() == self.get_reply_for(domainname).lower():
                 return True
 
         return False
