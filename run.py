@@ -19,7 +19,7 @@ def search(context):
 
 def show_help(context):
     context["logger"].debug("Display API help")
-    msg = "BPM Commands:\n"
+    msg = "Domainpig Commands:\n"
     keys = sorted(context['api'].keys())
     for k in keys:
         msg += "    {:17s} {:s}\n".format(k, context['api'][k][1])
